@@ -1,0 +1,71 @@
+/* текст */
+
+* {
+    font-family: 'Inter';
+}
+
+h1{
+    font-size: 24px;
+    font-weight: 800;
+    margin: 0;
+}
+
+/* контейнеры */
+
+.app{
+    gap: 0;
+
+    height: 100%;
+}
+
+.app-content{
+    display: flex;
+    flex-direction: row;
+
+    height: 100%;
+}
+
+header{
+    background: var(--secondary-color);
+
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+
+    gap: 15px;
+
+    border-bottom: 2px solid var(--border-color);
+}
+
+header hr{
+    width: 100%;
+    height: 5px;
+    background: var(--primary-color);
+    border-radius: 10px;
+    border: none;
+}
+
+
+
+.saved-frames{
+    padding: 20px;
+    height: 100%;
+    background: var(--secondary-color);
+    border-right: 2px solid var(--border-color);
+}
+
+.monitor-block{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.cameras-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    padding: 10px;
+}

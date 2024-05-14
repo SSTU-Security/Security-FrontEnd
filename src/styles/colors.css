@@ -1,0 +1,39 @@
+:root{
+    /* основные цвета приложения */
+    --primary-color: #156FF4;
+    --secondary-color: white;
+    --border-color: #BFBFBF;
+    --bg-color: #EAE7F2;
+
+    /* кнопки */
+    --primary-color-hover: #2e7df4;
+    --primary-color-active: #0c4dae;
+
+    /* ситуативные цвета */
+    --success-color: #6DDA17;
+    --attention-color: #DA1717;
+
+    /* цвета текста */
+    --primary-text-color: white;
+    --secondary-text-color: #156FF4;
+    --default-text-color: black;
+    --addition-text-color: #083983;
+
+    /* боковое меню */
+    --menu-border-color: #EEEEEE;
+    --menu-button-hover-color: #F4F6F9;
+    --menu-button-active-color: #e8ecf3;
+
+    /* по категориям и ролям */
+    --security-bg-color: #E0EDFF;
+    --security-border-color: #B1C6E2;
+    --security-elems-color: #6C89B2;
+
+    --curator-bg-color: #F1E7DC;
+    --curator-border-color: #D9C4AC;
+    --curator-elems-color: #987B30;
+
+    --teacher-bg-color: #DDF1DC;
+    --teacher-border-color: #ACD9B1;
+    --teacher-elems-color: #3F9830;
+}

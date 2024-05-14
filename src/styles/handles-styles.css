@@ -1,0 +1,48 @@
+.circular-stack{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+    border-radius: 100px;
+  }
+  
+  .circular-stack *{
+    position: absolute;
+  }
+  
+  .circular-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 70%;
+    height: 70%;
+    border-radius: 100px;
+  }
+  
+  .circular-icon * {
+    height: 50px;
+    width: 50px;
+    opacity: 50%;
+  }
+  
+  .radial-labels{
+    font-family: 'Inter';
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+  
+  .radial-labels h3{
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  .radial-labels h6{
+    font-size: 16px;
+    margin: 0;
+  }
