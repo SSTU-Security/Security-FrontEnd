@@ -1,0 +1,40 @@
+.saved-frames{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.saved-frames-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: scroll;
+}
+
+.frame{
+
+}
+
+.frame-container{
+    position: relative;
+    padding: 10px;
+    border: 2px solid var(--border-color);
+    border-radius: 20px;
+}
+
+.frame-info{
+
+}
+
+.frame-info img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border-radius: 5px;
+    border: none;
+}

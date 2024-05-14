@@ -21,7 +21,7 @@ h1{
 .app-content{
     display: flex;
     flex-direction: row;
-
+    padding-right: 10px;
     height: 100%;
 }
 
@@ -50,6 +50,7 @@ header hr{
 
 
 .saved-frames{
+    width: 30%;
     padding: 20px;
     height: 100%;
     background: var(--secondary-color);
@@ -60,6 +61,11 @@ header hr{
     display: flex;
     flex-direction: column;
     padding: 20px;
+
+    width: 100%;
+    gap: 20px;
+
+    overflow-y: scroll;
 }
 
 .cameras-list{

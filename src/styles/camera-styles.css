@@ -1,18 +1,33 @@
 .events-info{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .camera-stream-card{
+    padding: 10px;
+    background: var(--secondary-color);
     display: flex;
-    flex-direction: row;
+    flex-direction: var(--stream-card-direction);
     gap: 15px;
+
+    max-height: 600px;
 }
 
-.stream-picture{
-    max-height: 720px;
-    width: auto;
+@media(max-width: 1200px){
+    .camera-stream-card{
+        --stream-card-direction: column;
+    }
+}
 
+@media (min-width: 1201px) {
+    .camera-stream-card{
+        --stream-card-direction: row;
+    }
+  }
+
+.stream-picture{
+    width: auto;
+    height: 100%;
     
     
     position: relative;
@@ -20,22 +35,48 @@
 
 .stream-picture img{
     object-fit: cover;
-    width: 100%;
-    max-height: 100x;
+    width: auto;
+    height: 100%;
     border-radius: 10px;
+}
+
+.people-counter{
+    height: auto;
+    display: flex;
+    align-items: center;
+
+    padding: 10px;
+    gap: 10px;
+    background: none;
+    border-color: var(--menu-border-color);
+    border-style: solid;
+    border-width: 3px;
+
+    font-weight: 600;
+    font-size: 24px;
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
 
 .camera-info{
     display: flex;
     flex-direction: column;
     gap: 15px;
+
+    width: 100%;
 }
 
 .camera-meta{
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
 
     gap: 10px;
+}
+
+.cameras-list{
+    background: var(--secondary-color);
 }
 
 h2{

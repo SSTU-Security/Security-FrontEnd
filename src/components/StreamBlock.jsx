@@ -10,9 +10,7 @@ export default function StreamBlock() {
 
 
     return(
-        <div className='cameras-list'>
-            <CameraStreamElement streamImage={image}/>
-            <CameraStreamElement streamImage={image}/>
+        <div className='cameras-list radius-20'>
             <CameraStreamElement streamImage={image}/>
         </div>
     )

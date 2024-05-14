@@ -3,7 +3,7 @@ import RadialProgressBar from './RadialProgressBar'
 
 export default function RadialProgressCameraInfo({miniLabel, measure, icon, value, maxValue}) {
   return (
-    <div>
+    <div className='radial-stats'>
         <RadialProgressBar icon={icon} value={value} maxValue={maxValue}/>
         <div className='radial-labels'>
             <h6>{miniLabel}</h6>

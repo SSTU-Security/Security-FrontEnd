@@ -1,15 +1,17 @@
 import React from 'react'
 import RadialProgressCameraInfo from './RadialProgressCameraInfo'
 
-import CameraStatusIcon from '../assets/icons/CameraStatus'
-import ExportStatusIcon from '../assets/icons/ExportStatus'
-import ImportStatusIcon from '../assets/icons/ImportStatus'
-import GuardStatusIcon from '../assets/icons/GuardStatus'
-import CameraStatusWidget from './CameraStatus'
+import CameraStatusIcon from '../assets/icons/CameraStatus';
+import ExportStatusIcon from '../assets/icons/ExportStatus';
+import ImportStatusIcon from '../assets/icons/ImportStatus';
+import GuardStatusIcon from '../assets/icons/GuardStatus';
+import CameraStatusWidget from './CameraStatus';
+import PrimaryButton from './PrimaryButton';
+import SaveIcon from '../assets/icons/SaveIcon';
 
 export default function CameraStreamElement({streamImage, cameraInfo, cameraEvents}) {
  return (
-    <div className='camera-stream-card'>
+    <div className='camera-stream-card radius-20'>
         <div className='stream-picture'>
             <img src={streamImage}/>
         </div>
@@ -24,9 +26,10 @@ export default function CameraStreamElement({streamImage, cameraInfo, cameraEven
                 <RadialProgressCameraInfo icon={ <ImportStatusIcon/> } value={70} maxValue={100} miniLabel="За час вошло" measure='человек'/>
                 <RadialProgressCameraInfo icon={ <GuardStatusIcon/> } value={45} maxValue={100} miniLabel="За час нарушили" measure='человек'/>
             </div>
-            <div>
-
+            <div className='people-counter radius-10'>
+                1000000 человек в университете
             </div>
+            <PrimaryButton icon={ <SaveIcon/> } text="Сохранить"/>
         </div>
     </div>
   )

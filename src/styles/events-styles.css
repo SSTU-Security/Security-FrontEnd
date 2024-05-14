@@ -1,0 +1,114 @@
+.events-block{
+    display: flex;
+    flex-direction: row;
+
+    gap: 20px;
+}
+
+.violators-block{
+    padding: 20px;
+    gap: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    width: auto;
+
+    background: var(--secondary-color);
+}
+
+.visitors-block{
+    padding: 20px;
+    gap: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    width: auto;
+
+    background: var(--secondary-color);
+}
+
+.visitors-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.violators-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.log-item{
+    display: flex;
+    flex-direction: row;
+    
+    gap: 10px;
+
+    max-height: 200px;
+    max-width: 600px;
+
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid var(--border-color);
+}
+
+.log-meta-inner{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.log-meta-outer{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.log-meta-outer h3{
+    padding: 5px;
+    margin: 0;
+}
+
+.log-id-img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding-left: 10px;
+
+    border-radius: 10px;
+
+    color: var(--secondary-color);
+
+    background: var(--primary-color);
+}
+
+
+.log-id-img img {
+    height: 100%; /* Изображение займет всю доступную высоту блока */
+    width: auto; /* Ограничиваем максимальную ширину изображения, чтобы оно не выходило за границы блока */
+    object-fit: contain; /* Масштабируем изображение так, чтобы оно помещалось в блок */
+}
+
+.log-info{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.event-status{
+    background: rgb(115, 129, 115);
+    color: var(--secondary-color);
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.event-status img{
+    height: 25px;
+}

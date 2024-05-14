@@ -1,0 +1,41 @@
+//POST GetEventsJournal()
+
+{
+    "violators_log": [
+        {
+            "id": 115,
+            "surname": "Zhugavel",
+            "firstname": "Pagan",
+            "secondname": "Gigoevrich",
+            "image_src": "niggers.png",
+            "date": "23-20-2033"
+        },
+        {
+            "id": 115,
+            "surname": "Zhugavel",
+            "firstname": "Pagan",
+            "secondname": "Gigoevrich",
+            "image_src": "niggers.png",
+            "date": "23-20-2033"
+        }
+    ],
+
+    "events_log": [
+        {
+            "id": 115,
+            "surname": "Zhugavel",
+            "firstname": "Pagan",
+            "secondname": "Gigoevrich",
+            "image_src": "niggers.png",
+            "date": "23-20-2033"
+        },
+        {
+            "id": 115,
+            "surname": "Zhugavel",
+            "firstname": "Pagan",
+            "secondname": "Gigoevrich",
+            "image_src": "niggers.png",
+            "date": "23-20-2033"
+        }
+    ]
+}
